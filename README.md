@@ -1,8 +1,8 @@
 # Paper List of Open Set Domain Adaptation
 
-Only until 2017, people started to study "open set" domain adaptation. The presence of open set leads to negative transfer due to incorrect labelling on unknown classes.
-The major difference from anomaly detection problem is that this type of study assumes the target (test) domain is known, while in anomaly detection this is usually impractical.
+Only until 2017, people started to study "open set" domain adaptation. The presence of open set leads to negative transfer due to incorrect labelling on unknown classes.  
 
+The major difference from anomaly detection problem is that this type of study assumes the samples in the target (test) domain is representative, while in anomaly detection this is usually impractical.
 
 
 **Open Set Domain Adaptation** [[link](https://openaccess.thecvf.com/content_ICCV_2017/papers/Busto_Open_Set_Domain_ICCV_2017_paper.pdf)]  

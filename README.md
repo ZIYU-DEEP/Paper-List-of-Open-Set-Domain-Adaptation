@@ -2,7 +2,9 @@
 
 Only until 2017, people started to study "open set" domain adaptation. The presence of open set leads to negative transfer due to incorrect labelling on unknown classes.  
 
-The major difference from anomaly detection problem is that this type of study assumes the samples in the target (test) domain is representative, while in anomaly detection this is usually impractical.
+The major difference from anomaly detection problem is that this type of study assumes the samples in the target (test) domain is representative, while in anomaly detection this is usually impractical.  
+
+
 
 
 **Open Set Domain Adaptation** [[link](https://openaccess.thecvf.com/content_ICCV_2017/papers/Busto_Open_Set_Domain_ICCV_2017_paper.pdf)]  
@@ -36,3 +38,9 @@ The major difference from anomaly detection problem is that this type of study a
 **Open Set Domain Adaptation: Theoretical Bound and Algorithm** [[link](https://arxiv.org/abs/1907.08375)]  
 *IEEE-TNNLS, 2020*
 > - **Theory**: This paper derives an error bound on target samples, which consists of **source risk**, **domain discrepancy**, and **open-set risk**.
+> - **Method**: An algorithm which minimizes the aforementioned error.
+
+**Progressive Graph Learning for Open-Set Domain Adaptation** [[link](https://icml.cc/virtual/2020/poster/5782)]  
+*ICML, 2020*  
+> - **Theory**: Further decompose the error bound on target samples to be: **source risk**, **domain discrepancy**, **open-set risk**, and **shared error on the joint hypothesis**.
+> - **Method**: An algorithm which minimizes the aforementioned error.
